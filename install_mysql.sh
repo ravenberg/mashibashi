@@ -2,4 +2,4 @@
 
 echo "Updating repostories"
 apt update
-apt install mysql-server
+apt install mysql-server -y
