@@ -1,5 +1,7 @@
 #!/bin/bash
 
 echo "Updating repostories"
-apt update
-apt install mysql-server -y
+sudo apt update
+
+echo "Installing mysql-server"
+sudo apt install mysql-server -y
